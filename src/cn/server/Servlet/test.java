@@ -1,7 +1,7 @@
 package cn.server.Servlet;
 
 import cn.server.Utils.Util_Druid;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.Map;
