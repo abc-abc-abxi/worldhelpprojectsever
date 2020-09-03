@@ -2,18 +2,18 @@ package cn.server.Utils;
 
 public class informationadd {
 
-    private int id;//手机号
+    private String phonenumber;//手机号
     private String username;//昵称
     private String sex;//性别
     private String date;//出生日期
     private String password;//密码
 
-    public int getId() {
-        return id;
+    public String getPhonenumber() {
+        return phonenumber;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setId(String id) {
+        this.phonenumber = id;
     }
 
     public String getUsername() {
@@ -51,7 +51,7 @@ public class informationadd {
     @Override
     public String toString() {
         return "informationadd{" +
-                "id=" + id +
+                "phonenumber=" + phonenumber +
                 ", username='" + username + '\'' +
                 ", sex='" + sex + '\'' +
                 ", date='" + date + '\'' +
